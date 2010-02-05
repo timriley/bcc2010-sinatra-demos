@@ -1,0 +1,17 @@
+<div id="new-talk">
+	<form action="/talks" method="post">
+		<label class="title">
+			Title:
+			<input name="title" type="text"/>
+		</label>
+	</form>
+</div>
+
+<ol id="talks">
+	<% @talks.each do |talk| %>
+		<li class="<%= cycle %>">
+			<%= talk.title %>
+		</li>
+	<% end %>
+</ul>
+
