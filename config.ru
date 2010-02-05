@@ -1,2 +1,2 @@
-require '03_complete_app.rb'
+require '02_complete_app.rb'
 run Sinatra::Application

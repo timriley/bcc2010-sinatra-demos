@@ -8,5 +8,5 @@ namespace :db do
 end
 
 task :environment do
-  require 'app'
+  require '02_complete_app'
 end
